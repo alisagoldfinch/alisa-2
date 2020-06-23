@@ -1,3 +1,3 @@
-### Crossroads Slideshow
+### A Stunning Modeling Website Mady By [TheGoodCode](https://github.com/thegoodcode).
 
-## An experimental slideshow with an inclined look with three slide previews and a content view on click.
+### This Website is hosted on [Heroku](https://model-1.herokuapp.com).
