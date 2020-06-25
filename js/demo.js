@@ -645,9 +645,7 @@
 		document.body.classList.remove('loading')
 	)
 
-	// [...document.querySelectorAll('.frame__mode input[type="radio"]')].forEach(radio => radio.addEventListener('click', () => {
-	//     document.body.classList[radio.parentNode.classList.contains('frame__mode-item--dark') ? 'add' : 'remove']('dark-mode');
-	// }));
+	// Toggle between light and dark mode
 	const toggle = document.querySelector('.switch')
 	const body = document.body.classList
 	toggle.addEventListener('click', () => {
