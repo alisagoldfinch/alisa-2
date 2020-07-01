@@ -1,232 +1,211 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Welcome to My Website</title>
-		<meta
-			name="description"
-			content="Model Website made with Love by TheGoodCode"
-		/>
-		<meta name="keywords" content="model, teen, website, TheGoodCode" />
-		<meta name="author" content="TheGoodCode" />
-		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<script>
-			document.documentElement.className = 'js'
-			var supportsCssVars = function () {
-				var e,
-					t = document.createElement('style')
-				return (
-					(t.innerHTML = 'root: { --tmp-var: bold; }'),
-					document.head.appendChild(t),
-					(e = !!(
-						window.CSS &&
-						window.CSS.supports &&
-						window.CSS.supports('font-weight', 'var(--tmp-var)')
-					)),
-					t.parentNode.removeChild(t),
-					e
-				)
-			}
-			supportsCssVars() ||
-				alert(
-					'Please view this demo in a modern browser that supports CSS Variables.'
-				)
-		</script>
-	</head>
 
-	<body class="loading">
-		<main>
-			<div class="content">
-				<article class="content__item">
-					<div class="img-wrap img-wrap--content">
-						<div
-							class="img img--content"
-							style="background-image: url(img/1.jpg);"
-						></div>
-					</div>
-					<header class="content__item-header">
-						<span class="content__item-header-meta">NYC, July 4</span>
-						<h2 class="content__item-header-title">Adore</h2>
-					</header>
-					<div class="content__item-copy">
-						<p class="content__item-copy-text">
-							You can talk with someone for years, everyday, and still, it won't
-							mean as much as what you can have when you sit in front of
-							someone, not saying a word, yet you feel that person with your
-							heart, you feel like you have known the person for forever....
-							connections are made with the heart, not the tongue.
-						</p>
-					</div>
-				</article>
-				<article class="content__item">
-					<div class="img-wrap img-wrap--content">
-						<div
-							class="img img--content"
-							style="background-image: url(img/22.jpg);"
-						></div>
-					</div>
-					<header class="content__item-header">
-						<span class="content__item-header-meta">Sydney, Feb 14</span>
-						<h2 class="content__item-header-title">Glamour</h2>
-					</header>
-					<div class="content__item-copy">
-						<p class="content__item-copy-text">
-							Maybe you can afford to wait. Maybe for you there's a tomorrow.
-							Maybe for you there's one thousand tomorrows, or three thousand,
-							or ten, so much time you can bathe in it, roll around it, let it
-							slide like coins through you fingers. So much time you can waste
-							it. But for some of us there's only today. And the truth is, you
-							never really know.
-						</p>
-					</div>
-				</article>
-				<article class="content__item">
-					<div class="img-wrap img-wrap--content">
-						<div
-							class="img img--content"
-							style="background-image: url(img/3.jpg);"
-						></div>
-					</div>
-					<header class="content__item-header">
-						<span class="content__item-header-meta">Brisbane, Oct 29</span>
-						<h2 class="content__item-header-title">Beauty</h2>
-					</header>
-					<div class="content__item-copy">
-						<p class="content__item-copy-text">
-							Even if you cannot change all the people around you, you can
-							change the people you choose to be around. Life is too short to
-							waste your time on people who don’t respect, appreciate, and value
-							you. Spend your life with people who make you smile, laugh, and
-							feel loved.
-						</p>
-					</div>
-				</article>
-				<article class="content__item">
-					<div class="img-wrap img-wrap--content">
-						<div
-							class="img img--content"
-							style="background-image: url(img/4.jpg);"
-						></div>
-					</div>
-					<header class="content__item-header">
-						<span class="content__item-header-meta">Berlin, Nov 5</span>
-						<h2 class="content__item-header-title">Charm</h2>
-					</header>
-					<div class="content__item-copy">
-						<p class="content__item-copy-text">
-							It is difficult to live in and enjoy the moment when you are
-							thinking about the past or worrying about the future. You cannot
-							change your past, but you can ruin the present by worrying about
-							your future. Learn from the past, plan for the future. The more
-							you live in and enjoy the present moment, the happier you will be.
-						</p>
-					</div>
-				</article>
-				<article class="content__item">
-					<div class="img-wrap img-wrap--content">
-						<div
-							class="img img--content"
-							style="background-image: url(img/5.jpg);"
-						></div>
-					</div>
-					<header class="content__item-header">
-						<span class="content__item-header-meta">Paris, Dec 25</span>
-						<h2 class="content__item-header-title">Delight</h2>
-					</header>
-					<div class="content__item-copy">
-						<p class="content__item-copy-text">
-							There is no more profitable investment than investing in yourself.
-							It is the best investment you can make; you can never go wrong
-							with it. It is the true way to improve yourself to be the best
-							version of you and lets you be able to best serve those around
-							you.
-						</p>
-					</div>
-				</article>
-			</div>
-			<div class="revealer">
-				<div class="revealer__inner"></div>
-			</div>
-			<div class="grid grid--slideshow">
-				<figure class="grid__item grid__item--slide">
-					<span class="number">01</span>
-					<div class="img-wrap">
-						<div class="img" style="background-image: url(img/1.jpg);"></div>
-					</div>
-					<figcaption class="caption">NYC, July 4</figcaption>
-				</figure>
-				<figure class="grid__item grid__item--slide">
-					<span class="number">02</span>
-					<div class="img-wrap">
-						<div class="img" style="background-image: url(img/22.jpg);"></div>
-					</div>
-					<figcaption class="caption">Sydney, Feb 14</figcaption>
-				</figure>
-				<figure class="grid__item grid__item--slide">
-					<span class="number">03</span>
-					<div class="img-wrap">
-						<div class="img" style="background-image: url(img/3.jpg);"></div>
-					</div>
-					<figcaption class="caption">Brisbane, Oct 29</figcaption>
-				</figure>
-				<figure class="grid__item grid__item--slide">
-					<span class="number">04</span>
-					<div class="img-wrap">
-						<div class="img" style="background-image: url(img/4.jpg);"></div>
-					</div>
-					<figcaption class="caption">Berlin, Nov 5</figcaption>
-				</figure>
-				<figure class="grid__item grid__item--slide">
-					<span class="number">05</span>
-					<div class="img-wrap">
-						<div class="img" style="background-image: url(img/5.jpg);"></div>
-					</div>
-					<figcaption class="caption">Paris, Dec 25</figcaption>
-				</figure>
-				<div class="titles-wrap">
-					<div class="grid grid--titles">
-						<h3 class="grid__item grid__item--title">Adore</h3>
-						<h3 class="grid__item grid__item--title">Glamour</h3>
-						<h3 class="grid__item grid__item--title">Beauty</h3>
-						<h3 class="grid__item grid__item--title">Charm</h3>
-						<h3 class="grid__item grid__item--title">Delight</h3>
-					</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Welcome to My Website</title>
+	<meta name="description" content="Model Website made with Love by TheGoodCode" />
+	<meta name="keywords" content="model, teen, website, TheGoodCode" />
+	<meta name="author" content="TheGoodCode" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>
+		document.documentElement.className = 'js'
+		var supportsCssVars = function () {
+			var e,
+				t = document.createElement('style')
+			return (
+				(t.innerHTML = 'root: { --tmp-var: bold; }'),
+				document.head.appendChild(t),
+				(e = !!(
+					window.CSS &&
+					window.CSS.supports &&
+					window.CSS.supports('font-weight', 'var(--tmp-var)')
+				)),
+				t.parentNode.removeChild(t),
+				e
+			)
+		}
+		supportsCssVars() ||
+			alert(
+				'Please view this demo in a modern browser that supports CSS Variables.'
+			)
+	</script>
+</head>
+
+<body class="loading">
+	<main>
+		<div class="content">
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/1.jpg);"></div>
 				</div>
-				<div class="grid grid--interaction">
-					<div class="grid__item grid__item--cursor grid__item--left"></div>
-					<div class="grid__item grid__item--cursor grid__item--center"></div>
-					<div class="grid__item grid__item--cursor grid__item--right"></div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">NYC, July 4</span>
+					<h2 class="content__item-header-title">Adore</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						You can talk with someone for years, everyday, and still, it won't
+						mean as much as what you can have when you sit in front of
+						someone, not saying a word, yet you feel that person with your
+						heart, you feel like you have known the person for forever....
+						connections are made with the heart, not the tongue.
+					</p>
 				</div>
-			</div>
-			<div class="frame">
-				<div class="frame__title-wrap">
-					<h1 class="frame__title">
-						Made with
-						<span
-							style="color: orangered; font-size: 22px; vertical-align: sub;"
-							>&#9825;</span
-						>
-						by <a href="mailto:TheGoodCode@Tuta.io">TheGoodCode</a>
-					</h1>
-					<div class="frame__links" style="font-weight: bold;">
-						<a href="https://instagram.com/alisagoldfinch">Instagram</a>
-						<a href="https://www.youtube.com/channel/UC1NYjFMmXwzutjYdrJ8sT-Q"
-							>YouTube</a
-						>
-						<a href="https://tiktok.com">TikTok</a>
-					</div>
-					<div class="wrapper">
-						<input type="checkbox" name="checkbox" class="switch" checked />
-					</div>
+			</article>
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/2.jpg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Sydney, Feb 14</span>
+					<h2 class="content__item-header-title">Glamour</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						Maybe you can afford to wait. Maybe for you there's a tomorrow.
+						Maybe for you there's one thousand tomorrows, or three thousand,
+						or ten, so much time you can bathe in it, roll around it, let it
+						slide like coins through you fingers. So much time you can waste
+						it. But for some of us there's only today. And the truth is, you
+						never really know.
+					</p>
+				</div>
+			</article>
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/3.jpg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Brisbane, Oct 29</span>
+					<h2 class="content__item-header-title">Beauty</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						Even if you cannot change all the people around you, you can
+						change the people you choose to be around. Life is too short to
+						waste your time on people who don’t respect, appreciate, and value
+						you. Spend your life with people who make you smile, laugh, and
+						feel loved.
+					</p>
+				</div>
+			</article>
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/4.jpg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Berlin, Nov 5</span>
+					<h2 class="content__item-header-title">Charm</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						It is difficult to live in and enjoy the moment when you are
+						thinking about the past or worrying about the future. You cannot
+						change your past, but you can ruin the present by worrying about
+						your future. Learn from the past, plan for the future. The more
+						you live in and enjoy the present moment, the happier you will be.
+					</p>
+				</div>
+			</article>
+			<article class="content__item">
+				<div class="img-wrap img-wrap--content">
+					<div class="img img--content" style="background-image: url(img/5.jpg);"></div>
+				</div>
+				<header class="content__item-header">
+					<span class="content__item-header-meta">Paris, Dec 25</span>
+					<h2 class="content__item-header-title">Delight</h2>
+				</header>
+				<div class="content__item-copy">
+					<p class="content__item-copy-text">
+						There is no more profitable investment than investing in yourself.
+						It is the best investment you can make; you can never go wrong
+						with it. It is the true way to improve yourself to be the best
+						version of you and lets you be able to best serve those around
+						you.
+					</p>
+				</div>
+			</article>
+		</div>
+		<div class="revealer">
+			<div class="revealer__inner"></div>
+		</div>
+		<div class="grid grid--slideshow">
+			<figure class="grid__item grid__item--slide">
+				<span class="number">01</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/1.jpg);"></div>
+				</div>
+				<figcaption class="caption">NYC, July 4</figcaption>
+			</figure>
+			<figure class="grid__item grid__item--slide">
+				<span class="number">02</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/2.jpg);"></div>
+				</div>
+				<figcaption class="caption">Sydney, Feb 14</figcaption>
+			</figure>
+			<figure class="grid__item grid__item--slide">
+				<span class="number">03</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/3.jpg);"></div>
+				</div>
+				<figcaption class="caption">Brisbane, Oct 29</figcaption>
+			</figure>
+			<figure class="grid__item grid__item--slide">
+				<span class="number">04</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/4.jpg);"></div>
+				</div>
+				<figcaption class="caption">Berlin, Nov 5</figcaption>
+			</figure>
+			<figure class="grid__item grid__item--slide">
+				<span class="number">05</span>
+				<div class="img-wrap">
+					<div class="img" style="background-image: url(img/5.jpg);"></div>
+				</div>
+				<figcaption class="caption">Paris, Dec 25</figcaption>
+			</figure>
+			<div class="titles-wrap">
+				<div class="grid grid--titles">
+					<h3 class="grid__item grid__item--title">Adore</h3>
+					<h3 class="grid__item grid__item--title">Glamour</h3>
+					<h3 class="grid__item grid__item--title">Beauty</h3>
+					<h3 class="grid__item grid__item--title">Charm</h3>
+					<h3 class="grid__item grid__item--title">Delight</h3>
 				</div>
 			</div>
-			<!-- /frame -->
-		</main>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/charming.min.js"></script>
-		<script src="js/TweenMax.min.js"></script>
-		<script src="js/demo.js"></script>
-	</body>
+			<div class="grid grid--interaction">
+				<div class="grid__item grid__item--cursor grid__item--left"></div>
+				<div class="grid__item grid__item--cursor grid__item--center"></div>
+				<div class="grid__item grid__item--cursor grid__item--right"></div>
+			</div>
+		</div>
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">
+					Made with
+					<span style="color: orangered; font-size: 22px; vertical-align: sub;">&#9825;</span>
+					by <a href="mailto:TheGoodCode@Tuta.io">TheGoodCode</a>
+				</h1>
+				<div class="frame__links" style="font-weight: bold;">
+					<a href="https://instagram.com/alisagoldfinch">Instagram</a>
+					<a href="https://www.youtube.com/channel/UC1NYjFMmXwzutjYdrJ8sT-Q">YouTube</a>
+					<a href="https://tiktok.com">TikTok</a>
+				</div>
+				<div class="wrapper">
+					<input type="checkbox" name="checkbox" class="switch" checked />
+				</div>
+			</div>
+		</div>
+		<!-- /frame -->
+	</main>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/charming.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/demo.js"></script>
+</body>
+
 </html>
